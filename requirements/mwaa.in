@@ -1,0 +1,19 @@
+-c mwaa-2_10_1-constraints.in
+-r common.in
+
+awswrangler
+deepmerge
+msal
+numpy==1.26.4  # rationale: https://stackoverflow.com/a/78641304/8038693
+openpyxl
+psycopg2-binary
+pyarrow
+pymssql
+pyodbc
+pytz
+requests-ntlm2
+retry
+smart_open
+snowflake-connector-python
+sqlalchemy
+xlsxwriter

@@ -1,0 +1,6 @@
+-r common.in
+
+deepmerge
+retry
+snowflake-connector-python
+sqlalchemy

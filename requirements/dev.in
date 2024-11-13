@@ -1,0 +1,10 @@
+-r mwaa.in
+-r lambda-nodal.in
+-r lambda-indie.in
+
+black
+flake8
+freezegun
+isort
+pip-compile-multi
+pytest

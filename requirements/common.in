@@ -1,0 +1,7 @@
+boto3
+botocore
+dotmap
+s3fs
+requests
+pandas
+PyYAML

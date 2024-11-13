@@ -1,0 +1,14 @@
+services:
+
+  dependency-builder:
+    build:
+      context: ./requirements
+      dockerfile: Dockerfile
+    image: dependency-builder
+    container_name: dependency-builder
+    volumes:
+      - ./requirements:/app/requirements
+      - pip-cache:/var/cache/pip
+
+volumes:
+  pip-cache: {}
