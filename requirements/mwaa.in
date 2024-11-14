@@ -1,4 +1,4 @@
--c mwaa-2_10_1-constraints.in
+-c mwaa-2_10_1-constraints.txt
 -r common.in
 
 awswrangler
